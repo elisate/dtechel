@@ -1,7 +1,7 @@
 import { BrowserRouter,Route,Routes } from "react-router"
 import LandingLayout from "./LandingPageComponents/LandingLayout"
 import IndexPage from "./LandingPageComponents/IndexPage"
-import Home from "./LandingPageComponents/Home"
+
 import About from "./LandingPageComponents/About"
 import Services from "./LandingPageComponents/Services"
 import Projects from "./LandingPageComponents/Projects"
