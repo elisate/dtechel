@@ -1,44 +1,45 @@
 import { Play, Star } from 'lucide-react';
+
 export default function Home() {
   return (
-        <div className="relative min-h-screen bg-gradient-to-br from-orange-50 via-purple-50 to-blue-50 overflow-hidden">
+    <div className="relative min-h-screen bg-gradient-to-br from-orange-50 via-purple-50 to-blue-50 overflow-hidden">
       {/* Decorative Stars */}
-      <div className="absolute top-20 left-10 text-purple-600 opacity-70">
-        <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+      <div className="absolute top-20 sm:top-20 md:top-24 lg:top-20 left-4 sm:left-10 text-purple-600 opacity-70 z-0">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" className="sm:w-10 sm:h-10">
           <path d="M12 2L15 9L22 12L15 15L12 22L9 15L2 12L9 9L12 2Z" />
         </svg>
       </div>
-      <div className="absolute top-12 right-1/4 text-orange-500 opacity-70">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <div className="absolute top-12 sm:top-12 md:top-16 right-1/4 sm:right-1/4 text-orange-500 opacity-70 z-0">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" className="sm:w-6 sm:h-6">
           <path d="M12 2L13.5 8.5L20 10L13.5 11.5L12 18L10.5 11.5L4 10L10.5 8.5L12 2Z" />
         </svg>
       </div>
-      <div className="absolute bottom-32 left-20 text-purple-600 opacity-70">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+      <div className="absolute bottom-32 sm:bottom-32 md:bottom-36 lg:bottom-32 left-4 sm:left-20 text-purple-600 opacity-70 z-0">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" className="sm:w-8 sm:h-8">
           <path d="M12 2L14 8L20 10L14 12L12 18L10 12L4 10L10 8L12 2Z" />
         </svg>
       </div>
-      <div className="absolute bottom-1/4 right-20 text-orange-500 opacity-70">
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+      <div className="absolute bottom-1/4 right-4 sm:right-20 text-orange-500 opacity-70 z-0">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="sm:w-7 sm:h-7">
           <path d="M12 2L14 8L20 10L14 12L12 18L10 12L4 10L10 8L12 2Z" />
         </svg>
       </div>
-      <div className="absolute top-1/3 right-10 text-black opacity-50">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+      <div className="absolute top-1/3 right-4 sm:right-10 text-black opacity-50 z-0">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" className="sm:w-5 sm:h-5">
           <path d="M12 2L13 9L20 10L13 11L12 18L11 11L4 10L11 9L12 2Z" />
         </svg>
       </div>
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto py-4">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-screen py-12 lg:py-0">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-16 sm:pt-20 md:pt-24 lg:pt-4">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-screen py-12 lg:py-0 relative z-10">
           
           {/* Left Content */}
           <div className="space-y-6 lg:space-y-8">
             {/* Welcome Badge */}
-            <div className="flex items-center space-x-2" >
+            <div className="flex items-center space-x-2">
               <div className="w-12 h-0.5 bg-purple-600"></div>
-              <span className="text-purple-600 font-semibold text-sm lg:text-base tracking-wide ">
+              <span className="text-purple-600 font-semibold text-sm lg:text-base tracking-wide">
                 Welcome To Dtechel
               </span>
             </div>
@@ -70,8 +71,8 @@ export default function Home() {
               </button>
               
               <button className="flex items-center space-x-2 text-gray-700 hover:text-orange-500 transition-colors duration-300 font-semibold text-sm lg:text-base group">
-                <div className="w-5 h-5 lg:w-9 lg:h-9 rounded-full border-2 border-orange-500 flex items-center justify-center group-hover:bg-orange-500 transition-all duration-300">
-                  <Play className="w-2 h-2 lg:w-5 lg:h-5 text-orange-500 group-hover:text-white fill-current" />
+                <div className="w-8 h-8 lg:w-9 lg:h-9 rounded-full border-2 border-orange-500 flex items-center justify-center group-hover:bg-orange-500 transition-all duration-300">
+                  <Play className="w-4 h-4 lg:w-5 lg:h-5 text-orange-500 group-hover:text-white fill-current" />
                 </div>
                 <span>Watch A Video</span>
               </button>
