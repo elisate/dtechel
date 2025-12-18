@@ -1,6 +1,7 @@
 import { User, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import dt_removed from '../assets/dt_removed.png';
+import { Link } from 'react-router';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,30 +23,30 @@ export default function Navbar() {
 
           {/* Navigation Links - Desktop */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="relative group py-2">
+            <Link to="#home" className="relative group py-2">
               <span className="font-medium transition-colors">Home</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
-            </a>
-            <a href="#services" className="relative group py-2">
+            </Link>
+            <Link to="#services" className="relative group py-2">
               <span className="font-medium transition-colors">About</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
-            </a>
-            <a href="#pages" className="relative group py-2">
+            </Link>
+            <Link to="#pages" className="relative group py-2">
               <span className="font-medium transition-colors">Services</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
-            </a>
-            <a href="#blog" className="relative group py-2">
+            </Link>
+            <Link to="#blog" className="relative group py-2">
               <span className="font-medium transition-colors">Projects</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
-            </a>
-            <a href="#blog" className="relative group py-2">
+            </Link>
+            <Link to="#blog" className="relative group py-2">
               <span className="font-medium transition-colors">Blog</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
-            </a>
-            <a href="#contact" className="relative group py-2">
+            </Link>
+            <Link to="#contact" className="relative group py-2">
               <span className="font-medium transition-colors">Contact</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
-            </a>
+            </Link>
           </div>
 
           {/* Auth Section - Desktop */}
@@ -87,15 +88,15 @@ export default function Navbar() {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden mt-6 pb-4 space-y-3 border-t border-gray-800 pt-6">
-            <a href="#home" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
+            <Link to="#home" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
               Home
-            </a>
-            <a href="#services" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
+            </Link>
+            <Link to="#services" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
               About
-            </a>
-            <a href="#pages" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
+            </Link>
+            <Link to="#pages" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
               Services
-            </a>
+            </Link>
             <a href="#blog" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
                 Projects
             </a>
