@@ -1,4 +1,4 @@
-import { ArrowUpRight, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Facebook, Instagram, Twitter } from 'lucide-react';
 
 function Team() {
   const teamMembers = [

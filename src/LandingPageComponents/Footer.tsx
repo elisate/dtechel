@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
+import { Facebook, Instagram, Twitter} from 'lucide-react';
 
 function Footer() {
   return (
@@ -145,7 +145,7 @@ function Footer() {
               className="hover:text-white transition-colors"
               aria-label="YouTube"
             >
-              <Youtube size={20} />
+            
             </a>
           </div>
 
