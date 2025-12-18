@@ -1,14 +1,15 @@
 import { useState } from 'react';
+import { Phone, Mail, MapPin } from 'lucide-react';
 
 function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-   
     message: ''
   });
 
- 
+
+
   const handleSubmit = () => {
     if (formData.name && formData.email && formData.message) {
       console.log('Form submitted:', formData);
@@ -20,107 +21,128 @@ function Contact() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          {/* Left Side - Image with Progress Card */}
-          <div className="relative">
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-black p-8">
-              <img 
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop" 
-                alt="Team collaboration" 
-                className="w-full h-auto rounded-2xl"
-              />
-              
-              {/* Progress Card Overlay */}
-              <div className="absolute bottom-12 right-12 bg-orange-500 rounded-2xl p-6 shadow-xl">
-                <div className="text-center">
-                  <p className="text-black font-bold text-lg mb-4">Weekly<br/>Progress</p>
-                  <div className="relative w-24 h-24 mx-auto">
-                    <svg className="transform -rotate-90 w-24 h-24">
-                      <circle
-                        cx="48"
-                        cy="48"
-                        r="40"
-                        stroke="#ffffff"
-                        strokeWidth="8"
-                        fill="none"
-                        opacity="0.3"
-                      />
-                      <circle
-                        cx="48"
-                        cy="48"
-                        r="40"
-                        stroke="#000000"
-                        strokeWidth="8"
-                        fill="none"
-                        strokeDasharray={`${2 * Math.PI * 40}`}
-                        strokeDashoffset={`${2 * Math.PI * 40 * (1 - 0.75)}`}
-                        strokeLinecap="round"
-                      />
-                    </svg>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-2xl font-bold text-black">75%</span>
+        {/* Header Section */}
+        <div className="text-center mb-12">
+        
+          <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mt-4">
+            It's very easy<br/>to contact!
+          </h1>
+         
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+          {/* Left Side - Contact Information */}
+          <div className="space-y-6">
+            {/* Contact Information Card */}
+            <div className="rounded-3xl p-10">
+              <div>
+                <h2 className="text-3xl font-bold mb-3 text-gray-900">Contact Information</h2>
+                <p className="text-gray-600 mb-10">Fill out the form and our team will get back to you within 24 hours.</p>
+                
+                <div className="space-y-8">
+                  {/* Call Us */}
+                  <div className="flex items-start gap-5 group">
+                    <div className="bg-orange-500 p-4 rounded-2xl group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                      <Phone className="w-6 h-6 text-white" />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-semibold text-xl mb-2 text-gray-900">Call Us</h3>
+                      <a href="tel:+250786176444" className="text-gray-600 hover:text-orange-500 transition-colors text-lg">
+                        +250 786 176 444
+                      </a>
                     </div>
                   </div>
+
+                  {/* Email Us */}
+                  <div className="flex items-start gap-5 group">
+                    <div className="bg-orange-500 p-4 rounded-2xl group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                      <Mail className="w-6 h-6 text-white" />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-semibold text-xl mb-2 text-gray-900">Email Us</h3>
+                      <a href="mailto:info@electricalsolutionco.rw" className="text-gray-600 hover:text-orange-500 transition-colors text-lg break-all">
+                        info@electricalsolutionco.rw
+                      </a>
+                    </div>
+                  </div>
+
+                  {/* Visit Us */}
+                  <div className="flex items-start gap-5 group">
+                    <div className="bg-orange-500 p-4 rounded-2xl group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                      <MapPin className="w-6 h-6 text-white" />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-semibold text-xl mb-2 text-gray-900">Visit Us</h3>
+                      <p className="text-gray-600 text-lg leading-relaxed">
+                        Gisozi - ADARWA Building<br/>KG 33 AVE
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Social Media Section */}
+                <div className="mt-12 pt-8 border-t border-gray-200">
+                
+               
                 </div>
               </div>
             </div>
           </div>
 
           {/* Right Side - Contact Form */}
-          <div className="bg-white rounded-3xl p-8 lg:p-12 shadow-lg">
-            <div className="mb-8">
-              <p className="text-purple-600 font-semibold text-sm uppercase tracking-wider mb-3">
-                GET IN TOUCH
-              </p>
-              <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                It's very easy<br/>to contact!
-              </h1>
-            </div>
-
-            <div className="space-y-5">
+          <div className="bg-white rounded-3xl p-10 lg:p-12 shadow-xl border border-gray-100">
+            <div className="space-y-6">
               <div>
+                <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  Full Name *
+                </label>
                 <input
                   type="text"
                   name="name"
-                  placeholder="Your name"
+                  placeholder="Enter your full name"
                   value={formData.name}
-               
-                  className="w-full px-6 py-4 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all"
+                 
+                  className="w-full px-6 py-4 border-2 border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 transition-all hover:border-gray-300"
                 />
               </div>
 
               <div>
+                <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  Email Address *
+                </label>
                 <input
                   type="email"
                   name="email"
-                  placeholder="Email address"
+                  placeholder="Enter your email address"
                   value={formData.email}
-                 
-                  className="w-full px-6 py-4 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all"
+                  
+                  className="w-full px-6 py-4 border-2 border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 transition-all hover:border-gray-300"
                 />
               </div>
 
-           
-
               <div>
+                <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  Your Message *
+                </label>
                 <textarea
                   name="message"
-                  placeholder="Type message..."
+                  placeholder="Tell us about your project or inquiry..."
                   value={formData.message}
-           
-                 
-                  className="w-full px-6 py-4 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all resize-none"
+                  rows={3}
+                  className="w-full px-6 py-4 border-2 border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 transition-all resize-none hover:border-gray-300"
                 ></textarea>
               </div>
 
               <button
                 onClick={handleSubmit}
-                className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg uppercase tracking-wider"
+                className="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-5 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl shadow-lg uppercase tracking-wider"
               >
                 Send Message Now
               </button>
+
+            
             </div>
           </div>
         </div>
