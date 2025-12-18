@@ -97,15 +97,15 @@ export default function Navbar() {
             <Link to="#pages" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
               Services
             </Link>
-            <a href="#blog" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
+            <Link to="#blog" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
                 Projects
-            </a>
-            <a href="#blog" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
+            </Link>
+            <Link to="#blog" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
               Blog
-            </a>
-            <a href="#contact" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
+            </Link>
+            <Link to="#contact" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
               Contact
-            </a>
+            </Link>
             
             {/* Mobile Auth Section */}
             <div className="pt-4 border-t border-gray-800 space-y-3">
