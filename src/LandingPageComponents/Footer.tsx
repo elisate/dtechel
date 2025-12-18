@@ -164,7 +164,7 @@ function Footer() {
 
           {/* Copyright */}
           <div className="text-sm">
-            © Copyright 2024, All Rights Reserved by company
+            © Copyright 2024, All Rights Reserved by Dtechel
           </div>
         </div>
       </div>
