@@ -23,27 +23,27 @@ export default function Navbar() {
 
           {/* Navigation Links - Desktop */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="#home" className="relative group py-2">
+            <Link to="/home" className="relative group py-2">
               <span className="font-medium transition-colors">Home</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
             </Link>
-            <Link to="#services" className="relative group py-2">
+            <Link to="/about" className="relative group py-2">
               <span className="font-medium transition-colors">About</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
             </Link>
-            <Link to="#pages" className="relative group py-2">
+            <Link to="/services" className="relative group py-2">
               <span className="font-medium transition-colors">Services</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
             </Link>
-            <Link to="#blog" className="relative group py-2">
+            <Link to="/project" className="relative group py-2">
               <span className="font-medium transition-colors">Projects</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
             </Link>
-            <Link to="#blog" className="relative group py-2">
+            <Link to="/blog" className="relative group py-2">
               <span className="font-medium transition-colors">Blog</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
             </Link>
-            <Link to="#contact" className="relative group py-2">
+            <Link to="/contact" className="relative group py-2">
               <span className="font-medium transition-colors">Contact</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
             </Link>
@@ -88,22 +88,22 @@ export default function Navbar() {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden mt-6 pb-4 space-y-3 border-t border-gray-800 pt-6">
-            <Link to="#home" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
+            <Link to="/home" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
               Home
             </Link>
-            <Link to="#services" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
+            <Link to="/about" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
               About
             </Link>
-            <Link to="#pages" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
+            <Link to="/services" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
               Services
             </Link>
-            <Link to="#blog" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
+            <Link to="/project" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
                 Projects
             </Link>
-            <Link to="#blog" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
+            <Link to="/blog" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
               Blog
             </Link>
-            <Link to="#contact" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
+            <Link to="/contact" className="block px-4 py-3 hover:bg-gray-900 rounded-lg transition-all font-medium">
               Contact
             </Link>
             
