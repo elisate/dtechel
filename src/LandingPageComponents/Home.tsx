@@ -31,7 +31,7 @@ export default function Home() {
       </div>
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-16 sm:pt-20 md:pt-24 lg:pt-4">
+      <div className="max-w-7xl mx-auto pt-16 sm:pt-20 md:pt-24 lg:pt-4">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-screen py-12 lg:py-0 relative z-10">
           
           {/* Left Content */}
