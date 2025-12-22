@@ -6,7 +6,7 @@ function About() {
         <h3 className="text-purple-600 font-semibold text-sm  tracking-wider mb-4">
           ABOUT US
         </h3>
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-medium text-gray-900 mb-6 leading-tight">
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl  font-medium text-gray-900 mb-6 leading-tight">
           Our Company Specialize In IT<br />
           Solutions & Technology with Passion
         </h1>
