@@ -59,7 +59,7 @@ function Services() {
               </div>
 
               {/* Title */}
-              <h3 className="text-2xl font-medium text-gray-900 mb-4">
+              <h3 className="text-xl sm:text-2xl font-medium text-gray-900 mb-4">
                 {service.title}
               </h3>
 

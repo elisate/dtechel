@@ -125,7 +125,7 @@ function Team() {
 
               {/* Member Info */}
               <div>
-                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-1 group-hover:text-orange-500 transition-colors duration-300">
+                <h3 className="text-xl sm:text-2xl font-medium text-gray-900 mb-1 group-hover:text-orange-500 transition-colors duration-300">
                   {member.name}
                 </h3>
                 <p className="text-gray-600 text-sm sm:text-base">
