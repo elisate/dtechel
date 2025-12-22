@@ -105,7 +105,7 @@ function Contact() {
                                     placeholder="Enter your full name"
                                     value={formData.name}
 
-                                    className="w-full px-6 py-4 border-2 border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 transition-all hover:border-gray-300"
+                                    className="w-full px-6 py-4 border-2 border-gray-200 rounded-xl focus:outline-none focus:ring-0 focus:ring-orange-500 focus:border-orange-500 transition-all hover:border-gray-300"
                                 />
                             </div>
 
