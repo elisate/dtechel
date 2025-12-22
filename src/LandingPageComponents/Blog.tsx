@@ -78,7 +78,7 @@ function Blog() {
               </div>
 
               {/* Post Title */}
-              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 group-hover:text-orange-500 transition-colors duration-300 leading-tight">
+              <h3 className="text-xl sm:text-2xl font-medium text-gray-900 mb-3 group-hover:text-orange-500 transition-colors duration-300 leading-tight">
                 {post.title}
               </h3>
 

@@ -39,7 +39,7 @@ function Contact() {
                         {/* Contact Information Card */}
                         <div className="rounded-3xl p-10">
                             <div>
-                                <h2 className="text-3xl font-bold mb-3 text-gray-900">Contact Information</h2>
+                                <h2 className="text-xl sm:text-2xl font-medium mb-3 text-gray-900">Contact Information</h2>
                                 <p className="text-gray-600 mb-10">Fill out the form and our team will get back to you within 24 hours.</p>
 
                                 <div className="space-y-8">
@@ -49,7 +49,7 @@ function Contact() {
                                             <Phone className="w-6 h-6 text-white" />
                                         </div>
                                         <div className="flex-1">
-                                            <h3 className="font-semibold text-xl mb-2 text-gray-900">Call Us</h3>
+                                            <h3 className="text-sm font-semibold mb-2 text-gray-900">Call Us</h3>
                                             <a href="tel:+250786176444" className="text-gray-600 hover:text-orange-500 transition-colors text-lg">
                                                 +250 786 176 444
                                             </a>
@@ -62,9 +62,9 @@ function Contact() {
                                             <Mail className="w-6 h-6 text-white" />
                                         </div>
                                         <div className="flex-1">
-                                            <h3 className="font-semibold text-xl mb-2 text-gray-900">Email Us</h3>
-                                            <a href="mailto:info@electricalsolutionco.rw" className="text-gray-600 hover:text-orange-500 transition-colors text-lg break-all">
-                                                info@electricalsolutionco.rw
+                                            <h3 className="text-sm font-semibold mb-2 text-gray-900">Email Us</h3>
+                                            <a href="mailto:infodtechel@gmail.com" className="text-gray-600 hover:text-orange-500 transition-colors text-lg break-all">
+                                            infodtechel@gmail.com
                                             </a>
                                         </div>
                                     </div>
@@ -75,9 +75,9 @@ function Contact() {
                                             <MapPin className="w-6 h-6 text-white" />
                                         </div>
                                         <div className="flex-1">
-                                            <h3 className="font-semibold text-xl mb-2 text-gray-900">Visit Us</h3>
+                                            <h3 className="text-sm font-semibold mb-2 text-gray-900">Visit Us</h3>
                                             <p className="text-gray-600 text-lg leading-relaxed">
-                                                Gisozi - ADARWA Building<br />KG 33 AVE
+                                                Kacyiru ,KG 33 AVE
                                             </p>
                                         </div>
                                     </div>
