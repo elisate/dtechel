@@ -2,6 +2,7 @@ import { Facebook, Instagram, Twitter } from 'lucide-react';
 import ceo from "../assets/ceo.jpg"
 import tech_lead from "../assets/tech_lead.jpg"
 import dev1 from "../assets/dev1.png"
+import dev2 from "../assets/dev2.jpg"
 
 function Team() {
   const teamMembers = [
@@ -40,9 +41,9 @@ function Team() {
     },
     {
       id: 4,
-      name: "Jerome Bell",
+      name: "ITANGISHATSE MUSA",
       position: "Senior Developer",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&q=80",
+      image: dev2,
       socials: {
         facebook: "#",
         instagram: "#",
