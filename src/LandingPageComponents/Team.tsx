@@ -1,6 +1,7 @@
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 import ceo from "../assets/ceo.jpg"
 import tech_lead from "../assets/tech_lead.jpg"
+import dev1 from "../assets/dev1.png"
 
 function Team() {
   const teamMembers = [
@@ -28,9 +29,9 @@ function Team() {
     },
     {
       id: 3,
-      name: "Albert Flores",
+      name: "Bonheur Cedrick",
       position: "Senior Developer",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
+      image: dev1,
       socials: {
         facebook: "#",
         instagram: "#",
