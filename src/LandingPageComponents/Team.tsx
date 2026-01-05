@@ -1,12 +1,13 @@
 import { Facebook, Instagram, Twitter } from 'lucide-react';
+import ceo from "../assets/ceo.jpg"
 
 function Team() {
   const teamMembers = [
     {
       id: 1,
-      name: "Eleanor Pena",
+      name: "DUSHIMIYIMANA Elisa",
       position: "Senior Developer",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&q=80",
+      image: ceo,
       socials: {
         facebook: "#",
         instagram: "#",
