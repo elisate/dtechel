@@ -2,7 +2,7 @@ import { Facebook, Instagram, Twitter } from 'lucide-react';
 import ceo from "../assets/ceo.jpg"
 import tech_lead from "../assets/tech_lead.jpg"
 import dev1 from "../assets/dev1.png"
-import dev2 from "../assets/dev2.jpeg"
+import dev2 from "../assets/dev2.png"
 
 function Team() {
   const teamMembers = [
