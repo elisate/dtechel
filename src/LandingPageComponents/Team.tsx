@@ -1,12 +1,13 @@
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 import ceo from "../assets/ceo.jpg"
+import tech_lead from "../assets/tech_lead.jpg"
 
 function Team() {
   const teamMembers = [
     {
       id: 1,
       name: "DUSHIMIYIMANA Elisa",
-      position: "Senior Developer",
+      position: "Chief Executive Officer",
       image: ceo,
       socials: {
         facebook: "#",
@@ -16,9 +17,9 @@ function Team() {
     },
     {
       id: 2,
-      name: "Ralph Edwards",
-      position: "Senior Developer",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80",
+      name: "NIGANZE Alain",
+      position: "Tech Lead",
+      image: tech_lead,
       socials: {
         facebook: "#",
         instagram: "#",
