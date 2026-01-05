@@ -2,7 +2,7 @@ import { Facebook, Instagram, Twitter } from 'lucide-react';
 import ceo from "../assets/ceo.jpg"
 import tech_lead from "../assets/tech_lead.jpg"
 import dev1 from "../assets/dev1.png"
-import dev2 from "../assets/dev2.jpg"
+import dev2 from "../assets/dev2.jpeg"
 
 function Team() {
   const teamMembers = [
@@ -31,7 +31,7 @@ function Team() {
     {
       id: 3,
       name: "Bonheur Cedrick",
-      position: "Senior Developer",
+      position: "Software Developer",
       image: dev1,
       socials: {
         facebook: "#",
@@ -42,7 +42,7 @@ function Team() {
     {
       id: 4,
       name: "ITANGISHATSE MUSA",
-      position: "Senior Developer",
+      position: "Software Developer",
       image: dev2,
       socials: {
         facebook: "#",
