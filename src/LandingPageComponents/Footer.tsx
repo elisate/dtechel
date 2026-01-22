@@ -1,5 +1,6 @@
 import { Instagram, Github, Linkedin } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
+import dt from '../assets/dt_removed.png';
 
 function Footer() {
   return (
@@ -9,29 +10,11 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand Section */}
           <div>
-            <h2 className="text-white text-3xl font-bold mb-6">Dtechel</h2>
-            <ul className="space-y-3">
-              <li>
-                <a href="/about" className="hover:text-white transition-colors">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Features
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Works
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Career
-                </a>
-              </li>
-            </ul>
+            <h2 className="text-white text-3xl font-bold mb-6 flex flex-row items-center gap-1"><img src={dt} alt="" className='
+            h-10 w-10 object-contain transition-transform duration-300 group-hover:scale-110' />Dtechel</h2>
+            <p className="text-gray-400 hover:text-white transition-colors leading-relaxed">
+              Dtechel is a technology startup delivering innovative IT solutions for business transformation and community development.
+            </p>
           </div>
 
           {/* Help Section */}
