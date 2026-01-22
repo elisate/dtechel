@@ -1,4 +1,5 @@
 import { Play, Star } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -65,9 +66,9 @@ export default function Home() {
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 lg:gap-6">
-              <button className="px-6 py-2 bg-black text-white rounded-md hover:bg-gray-800 transition-all duration-300 font-medium text-sm lg:text-base transform hover:scale-105 shadow-lg">
+            <Link to="/services">  <button className="px-6 py-2 bg-black text-white rounded-md hover:bg-gray-800 transition-all duration-300 font-medium text-sm lg:text-base transform hover:scale-105 shadow-lg">
                 EXPLORE SERVICES
-              </button>
+              </button></Link>
 
               <button className="flex items-center space-x-2 text-gray-700 hover:text-orange-500 transition-colors duration-300 font-semibold text-sm lg:text-base group">
                 <div className="w-8 h-8 lg:w-9 lg:h-9 rounded-full border-2 border-orange-500 flex items-center justify-center group-hover:bg-orange-500 transition-all duration-300">
