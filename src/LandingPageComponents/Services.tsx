@@ -15,22 +15,22 @@ function Services() {
     {
       icon: <Network className="w-8 h-8" />,
       title: "System Design",
-      description: "Assertively streamline interactive interfaces after value-added infrastructures."
+      description: "We architect scalable and robust software systems, from backend services to cloud infrastructure, ensuring efficiency, security, and maintainability across all your platforms"
     },
     {
       icon: <Palette className="w-8 h-8" />,
       title: "UI/UX Design",
-      description: "Assertively streamline interactive interfaces after value-added infrastructures."
+      description: "We design engaging, user-friendly interfaces with a focus on usability, accessibility, and modern design principles, helping your products stand out and improve user retention."
     },
     {
       icon: <Brain className="w-8 h-8" />,
       title: "AI and ML Solutions",
-      description: "Assertively streamline interactive interfaces after value-added infrastructures."
+      description: "We implement AI and machine learning solutions tailored to your business, including predictive analytics, natural language processing, and intelligent automation to drive smarter decisions."
     },
     {
       icon: <Cpu className="w-8 h-8" />,
       title: "IoT Solutions",
-      description: "Assertively streamline interactive interfaces after value-added infrastructures."
+      description: "We create connected devices and IoT ecosystems that collect, analyze, and act on real-time data, enabling automation, monitoring, and intelligent insights for your operations."
     }
   ];
 
