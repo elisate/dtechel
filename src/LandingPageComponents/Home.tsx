@@ -61,8 +61,7 @@ export default function Home() {
 
             {/* Description */}
             <p className="text-gray-600 text-base lg:text-lg max-w-xl leading-relaxed">
-              Assertively streamline interactive interfaces after value infrastructures. Intrinsically incubate fully tested methodologies before Assertively streamline interactive interfaces after infrastructures. We are 100+ professional software.
-            </p>
+             We help businesses grow with modern technology solutions. Our dedicated team of skilled professionals delivers reliable, scalable, and efficient software solutions tailored to your needs.</p>
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 lg:gap-6">
