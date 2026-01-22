@@ -50,7 +50,7 @@ function Contact() {
                                         </div>
                                         <div className="flex-1">
                                             <h3 className="text-sm font-semibold mb-2 text-gray-900">Call Us</h3>
-                                            <a href="tel:+250794277969" className="text-gray-600 hover:text-orange-500 transition-colors text-lg">
+                                            <a href="tel:+250794277969" className="text-gray-600 hover:text-orange-500 transition-colors font-sans text-lg">
                                                 +250 794 277 969
                                             </a>
                                         </div>
@@ -63,7 +63,7 @@ function Contact() {
                                         </div>
                                         <div className="flex-1">
                                             <h3 className="text-sm font-semibold mb-2 text-gray-900">Email Us</h3>
-                                            <a href="mailto:infodtechel@gmail.com" className="text-gray-600 hover:text-orange-500 transition-colors text-lg break-all">
+                                            <a href="mailto:infodtechel@gmail.com" className="text-gray-600 hover:text-orange-500 transition-colors font-sans text-lg break-all">
                                                 infodtechel@gmail.com
                                             </a>
                                         </div>
@@ -76,7 +76,7 @@ function Contact() {
                                         </div>
                                         <div className="flex-1">
                                             <h3 className="text-sm font-semibold mb-2 text-gray-900">Visit Us</h3>
-                                            <p className="text-gray-600 text-lg leading-relaxed">
+                                            <p className="text-gray-600 text-lg  font-sans leading-relaxed">
                                                 Kacyiru ,KG 33 AVE
                                             </p>
                                         </div>

@@ -11,7 +11,8 @@ function About() {
           Solutions & Technology with Passion
         </h1>
         <p className="text-gray-500 text-sm md:text-base leading-relaxed max-w-5xl">
-          Assertively streamline interactive interfaces after value-added infrastructures. Authoritatively fabricate fully tested methodologies before. Holistic deliver end-to-end architectures rather than economically sound benefits. Progressively simplify end-to-end paradigms. Assertively streamline interactive interfaces after value-added infrastructure.
+          Dtechel is a technology startup transforming business operations through innovative software solutions and scalable IT systems, while creating new IT solutions for community growth and development.
+
         </p>
       </div>
 
@@ -51,22 +52,26 @@ function About() {
           {/* First Feature */}
           <div>
             <h2 className="text-2xl md:text-3xl font-normal text-gray-900 mb-4">
-              We Try To Give All Kind Of Technology Solution As Your Requirements And We Are The Best In Field.
+              Delivering Technology Solutions That Matter
             </h2>
             <p className="text-gray-500 text-sm md:text-base leading-relaxed">
-              Assertively streamline interactive interfaces after value-added infrastructures. Authoritatively fabricate fully tested methodologies before. Holistic deliver end-to-end architectures rather than economically sound benefits. Progressively simplify end-to-end paradigms. Assertively streamline interactive interfaces.
+              Dtechel is a technology startup committed to providing a wide range of IT and software solutions tailored to meet unique business requirements. We design and build scalable, secure, and efficient technology systems that support business growth and digital transformation.
             </p>
           </div>
 
           {/* Second Feature */}
           <div>
             <h2 className="text-2xl md:text-3xl font-no text-gray-900 mb-4">
-              Provide IT Services To Hundreds Of SME Customers Across A Diverse Range Of Sectors.
+             Our Approach & Impact
             </h2>
             <p className="text-gray-500 text-sm md:text-base leading-relaxed">
-              Assertively streamline interactive interfaces after value-added infrastructures. Authoritatively fabricate fully tested methodologies before. Holistic deliver end-to-end architectures rather than economically sound benefits. Progressively simplify end-to-end paradigms. Assertively streamline interactive interfaces.
+              Our team works with passion and dedication to deliver end-to-end solutions, including software development, system design, digital platforms, and technology consulting. We focus on quality, innovation, and long-term value for our clients.<br />
+
+              We proudly support small and medium-sized enterprises across diverse industries, helping them streamline operations, improve productivity, and adopt modern technologies that drive sustainable success.
             </p>
           </div>
+          
+
 
           {/* CTA Button */}
           <div>
