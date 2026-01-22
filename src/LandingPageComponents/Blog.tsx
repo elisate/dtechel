@@ -30,7 +30,7 @@ function Blog() {
 
   return (
     <div className=' bg-white'>
-      <div className="py-16 md:py-24">
+      <div className="pt-24 pb-16 md:py-24">
         {/* Section Header */}
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-end mb-12 md:mb-16">
           <div className="max-w-3xl">
@@ -39,18 +39,18 @@ function Blog() {
                 OUR LATEST BLOG
               </span>
             </div>
-            
+
             <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-medium text-gray-900 mb-4">
               Our Latest Experience
             </h2>
-            
+
             <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed">
-              Assertively streamline interactive interfaces after value a infrastructures. Authoritatively fabricate fully 
+              Assertively streamline interactive interfaces after value a infrastructures. Authoritatively fabricate fully
               tested methodologies before Holistic deliver end-to-end architectures rather sound benefits.
             </p>
           </div>
 
-         
+
         </div>
 
         {/* Blog Grid */}

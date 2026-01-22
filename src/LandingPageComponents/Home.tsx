@@ -31,9 +31,9 @@ export default function Home() {
       </div>
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto pt-16 sm:pt-20 md:pt-24 lg:pt-4">
+      <div className="max-w-7xl mx-auto pt-24 sm:pt-20 md:pt-24 lg:pt-4">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-screen py-12 lg:py-0 relative z-10">
-          
+
           {/* Left Content */}
           <div className="space-y-6 lg:space-y-8">
             {/* Welcome Badge */}
@@ -69,7 +69,7 @@ export default function Home() {
               <button className="px-6 py-2 bg-black text-white rounded-md hover:bg-gray-800 transition-all duration-300 font-medium text-sm lg:text-base transform hover:scale-105 shadow-lg">
                 EXPLORE SERVICES
               </button>
-              
+
               <button className="flex items-center space-x-2 text-gray-700 hover:text-orange-500 transition-colors duration-300 font-semibold text-sm lg:text-base group">
                 <div className="w-8 h-8 lg:w-9 lg:h-9 rounded-full border-2 border-orange-500 flex items-center justify-center group-hover:bg-orange-500 transition-all duration-300">
                   <Play className="w-4 h-4 lg:w-5 lg:h-5 text-orange-500 group-hover:text-white fill-current" />
@@ -83,12 +83,12 @@ export default function Home() {
           <div className="relative">
             {/* Main Image */}
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img 
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop" 
-                alt="Team collaboration" 
+              <img
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop"
+                alt="Team collaboration"
                 className="w-full h-auto object-cover"
               />
-              
+
               {/* Stats Card - Top Right */}
               <div className="absolute top-4 right-4 bg-white rounded-xl shadow-xl p-3 lg:p-4">
                 <div className="text-right">
@@ -118,9 +118,9 @@ export default function Home() {
 
             {/* Decorative Image - Bottom Right */}
             <div className="hidden lg:block absolute -bottom-8 -right-8 w-48 h-48 rounded-2xl overflow-hidden shadow-xl border-4 border-white">
-              <img 
-                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&h=400&fit=crop" 
-                alt="Professional" 
+              <img
+                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&h=400&fit=crop"
+                alt="Professional"
                 className="w-full h-full object-cover"
               />
             </div>

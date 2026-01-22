@@ -1,4 +1,5 @@
-import { Facebook, Instagram, Twitter} from 'lucide-react';
+import { Facebook, Instagram, Github, Linkedin } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -92,23 +93,23 @@ function Footer() {
             <h3 className="text-white text-xl font-semibold mb-6">Extra Links</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Customer Support
+                <a href="/blog" className="hover:text-white transition-colors">
+                  Dtechel News
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Delivery Details
+                <a href="services" className="hover:text-white transition-colors">
+                  Services
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Terms & Conditions
+                <a href="contact" className="hover:text-white transition-colors">
+                  Contact Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Privacy Policy
+                <a href="project" className="hover:text-white transition-colors">
+                  Our Projects
                 </a>
               </li>
             </ul>
@@ -119,34 +120,55 @@ function Footer() {
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
           {/* Social Icons */}
           <div className="flex items-center gap-6">
+
             <a
-              href="#"
-              className="hover:text-white transition-colors"
-              aria-label="Facebook"
-            >
-              <Facebook size={20} />
-            </a>
-            <a
-              href="#"
+              href="https://www.instagram.com/elyse.dushimirimana"
               className="hover:text-white transition-colors"
               aria-label="Instagram"
             >
               <Instagram size={20} />
             </a>
             <a
-              href="#"
+              href="https://x.com/Dushelisa"
               className="hover:text-white transition-colors"
-              aria-label="Twitter"
+              aria-label="X"
             >
-              <Twitter size={20} />
+              <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current">
+                <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+              </svg>
+            </a>
+
+
+
+            <a
+              href="https://github.com/elisate"
+              className="hover:text-white transition-colors"
+              aria-label="Github"
+            >
+              <Github size={20} />
+            </a>
+            <a
+              href="https://wa.me/0787239952"
+              className="hover:text-white transition-colors"
+              aria-label="Linkedin"
+            >
+              <Linkedin size={20} />
+            </a>
+            <a
+              href="https://wa.me/0787239952"
+              className="hover:text-white transition-colors"
+              aria-label="Whatsapp"
+            >
+              <FaWhatsapp size={20} />
             </a>
             <a
               href="#"
               className="hover:text-white transition-colors"
               aria-label="YouTube"
             >
-            
+
             </a>
+
           </div>
 
           {/* Bottom Links */}
@@ -164,7 +186,7 @@ function Footer() {
 
           {/* Copyright */}
           <div className="text-sm">
-            © Copyright 2024, All Rights Reserved by Dtechel
+            © Copyright 2026, All Rights Reserved by Dtechel
           </div>
         </div>
       </div>

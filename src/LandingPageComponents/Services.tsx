@@ -35,10 +35,10 @@ function Services() {
   ];
 
   return (
-    <div className='py-16 md:py-24'>
+    <div className='pt-24 pb-16 md:py-24'>
       <div >
         {/* Section Header */}
-       <span className='text-purple-600 font-semibold text-sm  tracking-wider mb-4'> SERVICES</span>
+        <span className='text-purple-600 font-semibold text-sm  tracking-wider mb-4'> SERVICES</span>
         <div className="text-center mb-10">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-medium text-gray-900 mb-4">
             Our best services

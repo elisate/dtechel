@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter } from 'lucide-react';
+import { Facebook, Instagram, Github, Linkedin } from 'lucide-react';
 import ceo from "../assets/ceo.jpg"
 import tech_lead from "../assets/tech_lead.jpg"
 import dev1 from "../assets/dev1.png"
@@ -12,9 +12,11 @@ function Team() {
       position: "Chief Executive Officer",
       image: ceo,
       socials: {
-        facebook: "#",
-        instagram: "#",
-        twitter: "#"
+        // facebook: "#",
+        instagram: "https://www.instagram.com/elyse.dushimirimana",
+        twitter: "https://x.com/Dushelisa",
+        github: "https://github.com/elisate",
+        linkedin: "#"
       }
     },
     {
@@ -23,9 +25,11 @@ function Team() {
       position: "Tech Lead",
       image: tech_lead,
       socials: {
-        facebook: "#",
+        // facebook: "#",
         instagram: "#",
-        twitter: "#"
+        twitter: "#",
+        github: "#",
+        linkedin: "#"
       }
     },
     {
@@ -34,9 +38,11 @@ function Team() {
       position: "Software Developer",
       image: dev1,
       socials: {
-        facebook: "#",
+        // facebook: "#",
         instagram: "#",
-        twitter: "#"
+        twitter: "#",
+        github: "#",
+        linkedin: "#"
       }
     },
     {
@@ -45,25 +51,27 @@ function Team() {
       position: "Software Developer",
       image: dev2,
       socials: {
-        facebook: "#",
+        // facebook: "#",
         instagram: "#",
-        twitter: "#"
+        twitter: "#",
+        github: "#",
+        linkedin: "#"
       }
     }
   ];
 
   return (
-    <div className='bg-gray-50'>
+    <div className='bg-gray-50 pt-24 pb-16 md:py-24'>
       <div >
         {/* Section Header */}
         <div >
-              <span className="text-purple-600 font-semibold text-xs sm:text-sm md:text-base tracking-wide uppercase mb-4">
-                OUR TEAM
-              </span>
+          <span className="text-purple-600 font-semibold text-sm tracking-wider mb-4">
+            OUR TEAM
+          </span>
 
-<div className='text-center mb-[3rem]'><h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-medium text-gray-900 mb-4">
-              Our Professional Team Member
-            </h2></div>
+          <div className='text-center mb-[3rem]'><h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-medium text-gray-900 mb-4">
+            Our Professional Team Member
+          </h2></div>
         </div>
 
         {/* Team Grid */}
@@ -80,16 +88,16 @@ function Team() {
                   alt={member.name}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
-                
+
                 {/* Social Icons - Show on hover */}
                 <div className="absolute bottom-6 left-6 flex gap-3 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">
-                  <a
+                  {/* <a
                     href={member.socials.facebook}
                     className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white hover:bg-orange-600 transition-colors duration-300"
                     aria-label="Facebook"
                   >
                     <Facebook className="w-5 h-5 fill-current" />
-                  </a>
+                  </a> */}
                   <a
                     href={member.socials.instagram}
                     className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white hover:bg-orange-600 transition-colors duration-300"
@@ -100,9 +108,25 @@ function Team() {
                   <a
                     href={member.socials.twitter}
                     className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white hover:bg-orange-600 transition-colors duration-300"
-                    aria-label="Twitter"
+                    aria-label="X"
                   >
-                    <Twitter className="w-5 h-5 fill-current" />
+                    <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current">
+                      <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+                    </svg>
+                  </a>
+                  <a
+                    href={member.socials.github}
+                    className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white hover:bg-orange-600 transition-colors duration-300"
+                    aria-label="Github"
+                  >
+                    <Github className="w-5 h-5" />
+                  </a>
+                  <a
+                    href={member.socials.linkedin}
+                    className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white hover:bg-orange-600 transition-colors duration-300"
+                    aria-label="Linkedin"
+                  >
+                    <Linkedin className="w-5 h-5" />
                   </a>
                 </div>
 
@@ -128,7 +152,7 @@ function Team() {
               </div>
 
               {/* Member Info */}
-              <div>
+              <div >
                 <h3 className="text-xl sm:text-2xl font-medium text-gray-900 mb-1 group-hover:text-orange-500 transition-colors duration-300">
                   {member.name}
                 </h3>

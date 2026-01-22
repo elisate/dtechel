@@ -30,21 +30,21 @@ function Projects() {
 
   return (
     <div className=' bg-white'>
-      <div className="py-16 md:py-24">
+      <div className="pt-24 pb-16 md:py-24">
         {/* Section Header */}
         <div className="mb-12 md:mb-16">
-          
-            <span className="text-purple-600 font-semibold text-sm  tracking-wider mb-2">
-              PROJECT
-            </span>
-         
+
+          <span className="text-purple-600 font-semibold text-sm  tracking-wider mb-4">
+            PROJECT
+          </span>
+
           <div className='text-center mb-10'>
-             <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-medium text-gray-900 mb-4">
-            Awesome Works For Our Clients
-          </h2>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-medium text-gray-900 mb-4">
+              Awesome Works For Our Clients
+            </h2>
           </div>
-         
-    
+
+
         </div>
 
         {/* Projects Grid */}

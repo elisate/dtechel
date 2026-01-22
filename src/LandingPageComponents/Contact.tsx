@@ -21,7 +21,7 @@ function Contact() {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray- py-16 md:py-24">
+        <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray- pt-24 pb-16 md:py-24">
             <span className='text-purple-600 font-semibold text-sm  tracking-wider mb-4'>CONTACT US</span>
             <div className="max-w-7xl mx-auto">
                 {/* Header Section */}
@@ -64,7 +64,7 @@ function Contact() {
                                         <div className="flex-1">
                                             <h3 className="text-sm font-semibold mb-2 text-gray-900">Email Us</h3>
                                             <a href="mailto:infodtechel@gmail.com" className="text-gray-600 hover:text-orange-500 transition-colors text-lg break-all">
-                                            infodtechel@gmail.com
+                                                infodtechel@gmail.com
                                             </a>
                                         </div>
                                     </div>
