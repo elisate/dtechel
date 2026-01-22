@@ -35,7 +35,7 @@ function Services() {
   ];
 
   return (
-    <div className='pt-24 pb-12 md:py-16'>
+    <div className='pt-24 pb-12 md:pb-16 md:pt-28'>
       <div >
         {/* Section Header */}
         <span className='text-purple-600 font-semibold text-sm  tracking-wider mb-4'> SERVICES</span>
