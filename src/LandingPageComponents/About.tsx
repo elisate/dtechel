@@ -52,10 +52,13 @@ function About() {
           {/* First Feature */}
           <div>
             <h2 className="text-2xl md:text-3xl font-normal text-gray-900 mb-4">
-              Delivering Technology Solutions That Matter
+         Delivering Technology Solutions That Matter
             </h2>
+            <p className="text-gray-500 text-sm md:text-base leading-relaxed mb-2">
+            Dtechel is a technology startup committed to providing a wide range of IT and software solutions tailored to meet unique business requirements. We design and build scalable, secure, and efficient technology systems that enable business growth, streamline operations, and drive digital transformation.
+            </p>
             <p className="text-gray-500 text-sm md:text-base leading-relaxed">
-              Dtechel is a technology startup committed to providing a wide range of IT and software solutions tailored to meet unique business requirements. We design and build scalable, secure, and efficient technology systems that support business growth and digital transformation.
+        Our mission is to empower businesses with innovative technology while also creating IT solutions that contribute to community growth and sustainable development.
             </p>
           </div>
 
@@ -65,9 +68,9 @@ function About() {
              Our Approach & Impact
             </h2>
             <p className="text-gray-500 text-sm md:text-base leading-relaxed">
-              Our team works with passion and dedication to deliver end-to-end solutions, including software development, system design, digital platforms, and technology consulting. We focus on quality, innovation, and long-term value for our clients.<br />
+          Our team works with passion and dedication to deliver end-to-end solutions, including software development, system design, digital platforms, and technology consulting. We focus on quality, innovation, and long-term value for our clients.<br />
 
-              We proudly support small and medium-sized enterprises across diverse industries, helping them streamline operations, improve productivity, and adopt modern technologies that drive sustainable success.
+            We proudly support small and medium-sized enterprises across diverse industries, helping them adopt modern technologies, improve productivity, and achieve sustainable success.
             </p>
           </div>
           
