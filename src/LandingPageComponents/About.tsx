@@ -41,7 +41,7 @@ function About() {
 
           {/* Experience Badge */}
           <div className="absolute bottom-8 left-8 bg-orange-500 text-white rounded-2xl p-6 shadow-2xl">
-            <div className="text-4xl md:text-5xl font-bold mb-1">12+</div>
+            <div className="text-4xl md:text-5xl font-bold mb-1">7+</div>
             <div className="text-sm md:text-base font-medium">Years Experience</div>
           </div>
         </div>

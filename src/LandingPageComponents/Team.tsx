@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Github, Linkedin } from 'lucide-react';
+import { Instagram, Github, Linkedin } from 'lucide-react';
 import ceo from "../assets/ceo.jpg"
 import tech_lead from "../assets/tech_lead.jpg"
 import dev1 from "../assets/dev1.png"

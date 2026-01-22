@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Github, Linkedin } from 'lucide-react';
+import { Instagram, Github, Linkedin } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
 
 function Footer() {

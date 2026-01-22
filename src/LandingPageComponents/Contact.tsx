@@ -50,8 +50,8 @@ function Contact() {
                                         </div>
                                         <div className="flex-1">
                                             <h3 className="text-sm font-semibold mb-2 text-gray-900">Call Us</h3>
-                                            <a href="tel:+250786176444" className="text-gray-600 hover:text-orange-500 transition-colors text-lg">
-                                                +250 786 176 444
+                                            <a href="tel:+250794277969" className="text-gray-600 hover:text-orange-500 transition-colors text-lg">
+                                                +250 794 277 969
                                             </a>
                                         </div>
                                     </div>
