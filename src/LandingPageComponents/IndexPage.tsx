@@ -1,5 +1,5 @@
 
-import Status from './Status';
+import Status from '../LandingPageComponents/Status';
 import Home from './Home';
 import About from './About';
 import Services from './Services';
