@@ -55,13 +55,13 @@ export default function Home() {
                 </span>
               </h1>
               <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-medium text-gray-900 leading-tight">
-                IT Solution
+                IT Solutions
               </h1>
             </div>
 
             {/* Description */}
             <p className="text-gray-600 text-base lg:text-lg max-w-xl leading-relaxed">
-             We help businesses grow with modern technology solutions. Our dedicated team of skilled professionals delivers reliable, scalable, and efficient software solutions tailored to your needs.</p>
+              We help businesses grow with modern technology solutions. Our dedicated team of skilled professionals delivers reliable, scalable, and efficient software solutions tailored to your needs.</p>
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 lg:gap-6">
