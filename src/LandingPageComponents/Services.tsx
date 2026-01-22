@@ -5,17 +5,17 @@ function Services() {
     {
       icon: <Code className="w-8 h-8" />,
       title: "Web Development",
-      description: "Assertively streamline interactive interfaces after value-added infrastructures."
+      description: "We create responsive, high-performance websites and web applications using the latest technologies, ensuring seamless user experiences, robust functionality, and scalable solutions tailored to your business needs."
     },
     {
       icon: <Smartphone className="w-8 h-8" />,
       title: "Mobile App Development",
-      description: "Assertively streamline interactive interfaces after value-added infrastructures."
+      description: "We develop intuitive, feature-rich mobile applications for both Android and iOS, delivering smooth performance, offline capabilities, and a native-like experience, using the most suitable technologies for your project."
     },
     {
       icon: <Network className="w-8 h-8" />,
       title: "System Design",
-      description: "We architect scalable and robust software systems, from backend services to cloud infrastructure, ensuring efficiency, security, and maintainability across all your platforms"
+      description: "We design scalable and robust software systems, from backend services to cloud infrastructure, ensuring seamless performance, strong security, and fully maintainable solutions tailored to your unique business needs."
     },
     {
       icon: <Palette className="w-8 h-8" />,
