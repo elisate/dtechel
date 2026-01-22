@@ -4,7 +4,7 @@ import dt from '../assets/dt_removed.png';
 
 function Footer() {
   return (
-    <footer className="bg-black text-gray-400">
+    <footer className="bg-black text-gray-400 font-sans text-sm">
       <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:pl-[3rem] xl:pr-[3rem] py-12">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
@@ -155,7 +155,7 @@ function Footer() {
           </div>
 
           {/* Bottom Links */}
-          <div className="flex items-center gap-8 text-sm">
+          <div className="flex items-center gap-8">
             <a href="#" className="hover:text-white transition-colors">
               Privacy Policy
             </a>
@@ -168,7 +168,7 @@ function Footer() {
           </div>
 
           {/* Copyright */}
-          <div className="text-sm">
+          <div>
             © Copyright 2026, All Rights Reserved by Dtechel
           </div>
         </div>
