@@ -1,8 +1,8 @@
 function Status() {
   const stats = [
-    { value: "98%", label: "Automatic payment" },
-    { value: "100k+", label: "New users per week" },
-    { value: "110k+", label: "Monthly active users" },
+    { value: "98%", label: "Solutions Delivered" },
+    { value: "100+", label: "New users per week" },
+    { value: "1k+", label: "Monthly active users" },
     { value: "33%", label: "Growth-over-year" },
   ];
 
