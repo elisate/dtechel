@@ -1,5 +1,5 @@
 
-import Status from '../LandingPageComponents/Status';
+import Status from './Status';
 import Home from './Home';
 import About from './About';
 import Services from './Services';
@@ -9,17 +9,17 @@ import Blog from './Blog';
 import Contact from './Contact';
 function IndexPage() {
   return (
-<>
-<Home />
-<Status />
-<About />
-<Services />
-<Projects />
-<Team/>
-<Blog />
-<Contact />
+    <>
+      <Home />
+      <Status />
+      <About />
+      <Services />
+      <Projects />
+      <Team />
+      <Blog />
+      <Contact />
 
-</>
+    </>
   );
 }
 
