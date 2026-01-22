@@ -5,7 +5,7 @@ import dt from '../assets/dt_removed.png';
 function Footer() {
   return (
     <footer className="bg-black text-gray-400">
-      <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:pl-[3rem] xl:pr-[3rem] py-16">
+      <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:pl-[3rem] xl:pr-[3rem] py-12">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand Section */}

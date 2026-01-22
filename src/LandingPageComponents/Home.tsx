@@ -66,7 +66,7 @@ export default function Home() {
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 lg:gap-6">
-            <Link to="/services">  <button className="px-6 py-2 bg-black text-white rounded-md hover:bg-gray-800 transition-all duration-300 font-medium text-sm lg:text-base transform hover:scale-105 shadow-lg">
+              <Link to="/services">  <button className="px-6 py-2 bg-black text-white rounded-md hover:bg-gray-800 transition-all duration-300 font-medium text-sm lg:text-base transform hover:scale-105 shadow-lg">
                 EXPLORE SERVICES
               </button></Link>
 

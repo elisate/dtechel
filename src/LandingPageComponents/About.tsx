@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="bg-gray-50 pt-24 pb-16 md:py-20 lg:py-24">
+    <div className="bg-gray-50 pt-24 pb-12 md:py-16">
       {/* Section Header */}
       <div className="mb-12">
         <h3 className="text-purple-600 font-semibold text-sm  tracking-wider mb-4">

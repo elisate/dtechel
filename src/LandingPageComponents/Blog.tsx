@@ -30,7 +30,7 @@ function Blog() {
 
   return (
     <div className=' bg-white'>
-      <div className="pt-24 pb-16 md:py-24">
+      <div className="pt-24 pb-12 md:py-16">
         {/* Section Header */}
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-end mb-12 md:mb-16">
           <div className="max-w-3xl">

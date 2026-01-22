@@ -30,7 +30,7 @@ function Projects() {
 
   return (
     <div className=' bg-white'>
-      <div className="pt-24 pb-16 md:py-24">
+      <div className="pt-24 pb-12 md:py-16">
         {/* Section Header */}
         <div className="mb-12 md:mb-16">
 

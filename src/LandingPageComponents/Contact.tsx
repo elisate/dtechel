@@ -21,7 +21,7 @@ function Contact() {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray- pt-24 pb-16 md:py-24">
+        <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray- pt-24 pb-12 md:py-16">
             <span className='text-purple-600 font-semibold text-sm  tracking-wider mb-4'>CONTACT US</span>
             <div className="max-w-7xl mx-auto">
                 {/* Header Section */}

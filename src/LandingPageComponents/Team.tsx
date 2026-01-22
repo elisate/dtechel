@@ -61,7 +61,7 @@ function Team() {
   ];
 
   return (
-    <div className='bg-gray-50 pt-24 pb-16 md:py-24'>
+    <div className='bg-gray-50 pt-24 pb-12 md:py-16'>
       <div >
         {/* Section Header */}
         <div >
