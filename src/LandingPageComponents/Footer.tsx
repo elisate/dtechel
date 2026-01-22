@@ -12,7 +12,7 @@ function Footer() {
             <h2 className="text-white text-3xl font-bold mb-6">Dtechel</h2>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="/about" className="hover:text-white transition-colors">
                   About
                 </a>
               </li>
