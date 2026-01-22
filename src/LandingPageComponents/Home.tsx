@@ -89,7 +89,7 @@ export default function Home() {
               />
 
               {/* Stats Card - Top Right */}
-              <div className="absolute top-4 right-4 bg-white rounded-xl shadow-xl p-3 lg:p-4">
+              <div className="absolute top-4 right-4 bg-white rounded-xl shadow-xl p-3 lg:p-4 cursor-pointer">
                 <div className="text-right">
                   <div className="text-2xl lg:text-3xl font-bold text-orange-500">1000+</div>
                   <div className="text-xs lg:text-sm text-gray-600 font-medium">Happy Clients</div>
@@ -101,7 +101,7 @@ export default function Home() {
               </div>
 
               {/* Dtechel Review Card - Bottom Left */}
-              <div className="absolute bottom-4 left-4 bg-white rounded-xl shadow-xl p-3 lg:p-4">
+              <div className="absolute bottom-4 left-4 bg-white rounded-xl shadow-xl p-3 lg:p-4 cursor-pointer">
                 <div className="text-xs text-gray-500 mb-1">REVIEWED ON</div>
                 <div className="flex items-center space-x-2">
                   <span className="text-lg lg:text-xl font-bold text-gray-900">Dtechel</span>
