@@ -34,21 +34,23 @@ function Blog() {
         {/* Section Header */}
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-end mb-12 md:mb-16">
           <div className="max-w-3xl">
-            <div className="flex items-center space-x-2 sm:space-x-3 mb-4">
-              <span className="text-purple-600 font-semibold text-sm  tracking-wider mb-4">
-                OUR LATEST BLOG
-              </span>
-            </div>
+  <div className="flex items-center space-x-2 sm:space-x-3 mb-4">
+    <span className="text-purple-600 font-semibold text-sm tracking-wider mb-4">
+      OUR LATEST BLOG
+    </span>
+  </div>
 
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-medium text-gray-900 mb-4">
-              Our Latest Experience
-            </h2>
+  <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-medium text-gray-900 mb-4">
+    Our Latest Experience
+  </h2>
 
-            <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed">
-              Assertively streamline interactive interfaces after value a infrastructures. Authoritatively fabricate fully
-              tested methodologies before Holistic deliver end-to-end architectures rather sound benefits.
-            </p>
-          </div>
+  <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed">
+    At Dtechel, our latest experience highlights our dedication to building modern, scalable, and user-focused digital
+    solutions. From concept to deployment, we deliver secure and efficient systems that help businesses grow and adapt
+    in today’s fast-changing digital world.
+  </p>
+</div>
+
 
 
         </div>
