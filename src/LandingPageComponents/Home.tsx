@@ -1,5 +1,6 @@
 import { Play, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import bg1 from "../assets/bg1.jpg"
 
 export default function Home() {
   return (
@@ -88,7 +89,7 @@ export default function Home() {
                 alt="Team collaboration"
                 className="w-full h-auto object-cover"
               />
-
+{/* <img src={bg1} alt="bg1" className="w-full h-auto object-cover"/> */}
               {/* Stats Card - Top Right */}
               <div className="absolute top-4 right-4 bg-white rounded-xl shadow-xl p-3 lg:p-4 cursor-pointer">
                 <div className="text-right">
@@ -118,11 +119,12 @@ export default function Home() {
 
             {/* Decorative Image - Bottom Right */}
             <div className="hidden lg:block absolute -bottom-8 -right-8 w-48 h-48 rounded-2xl overflow-hidden shadow-xl border-4 border-white">
-              <img
+              {/* <img
                 src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&h=400&fit=crop"
                 alt="Professional"
                 className="w-full h-full object-cover"
-              />
+              /> */}
+              <img src={bg1} alt="bg1" className="w-full h-full object-cover"/>
             </div>
           </div>
 
