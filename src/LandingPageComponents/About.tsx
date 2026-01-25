@@ -1,3 +1,6 @@
+import aboutimage from "../assets/aboutimage1.jpeg"
+import aboutimage2 from "../assets/aboutimage2.jpg"
+
 function About() {
   return (
     <div className="bg-gray-50 pt-24 pb-12 md:pb-16 md:pt-28">
@@ -25,7 +28,9 @@ function About() {
             <div className="col-span-2">
               <div className="bg-gray-300 rounded-2xl h-64 md:h-80 overflow-hidden">
                 <div className="w-full h-full flex items-center justify-center text-gray-600">
-                  [Team Meeting Image]
+                  {/* [Team Meeting Image] */}
+
+   <img src={aboutimage2} alt="About Dtechel pic 1" className="object-cover"/>
                 </div>
               </div>
             </div>
@@ -34,7 +39,12 @@ function About() {
             <div className="col-span-2">
               <div className="bg-gray-300 rounded-2xl h-60 md:h-50 overflow-hidden">
                 <div className="w-full h-full flex items-center justify-center text-gray-600">
-                  [Business Discussion Image]
+                  {/* [Business Discussion Image] */}
+                                <img
+  src={aboutimage}
+  alt="About Dtechel"
+  className="object-cover"
+/>
                 </div>
               </div>
             </div>

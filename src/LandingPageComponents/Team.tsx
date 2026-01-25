@@ -70,7 +70,7 @@ function Team() {
           </span>
 
           <div className='text-center mb-[3rem]'><h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-medium text-gray-900 mb-4">
-            Our Professional Team Member
+            Our Professional Team Members
           </h2></div>
         </div>
 
